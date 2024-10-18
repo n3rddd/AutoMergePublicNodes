@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾3|@ripaojiedian
-  password: 69b103f6-2db0-452b-999e-06cb77b8021b
-  port: 40018
-  server: hzhz2.sssyun.xyz
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 39201
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss

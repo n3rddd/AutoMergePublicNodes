@@ -8,9 +8,17 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: c6011161-bc0a-4260-b622-df391c1641dd
-  port: 10668
-  server: sgzzah.lbxjc.online
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 40014
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: 88d31532-7497-452a-8f13-791f7f8bba6c
+  port: 11008
+  server: hk.bazhuayujiasu.cc
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -18,16 +26,6 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.250.103.70
+  server: 13.229.212.209
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50009'
-  server: 50009.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
