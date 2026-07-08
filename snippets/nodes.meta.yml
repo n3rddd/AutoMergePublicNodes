@@ -314,6 +314,16 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: TGzLlWQaFb
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 9|V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -360,16 +370,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|@tootffarangi-7
-  obfs: salamander
-  obfs-password: wbpq2m519yken2qi
-  password: bjqhikidgbvefako
-  port: 34909
-  server: max-ep.443.erangle.ru
-  skip-cert-verify: false
-  sni: a-l.fl-sub.erangle.ru
   tls: false
   type: hysteria2
 - name: '9|تلگرام : MTMVPN'
@@ -442,7 +442,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn
+- name: '9|🇩🇪@V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpn
