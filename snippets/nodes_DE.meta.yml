@@ -36,6 +36,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: '[ 🇩🇪 ] | @Cfox_SerVer'
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -80,13 +87,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE-🚀@VPNine1
+- name: '@filembad'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
   server: 2.27.59.206
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
@@ -130,21 +137,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|1018KB/s
+- name: 🇩🇪DE_1|1007KB/s
+  port: 11111
+  server: 103.237.102.191
+  type: http
+- name: 🇩🇪DE_2|2.3MB/s
   port: 443
-  server: 149.36.50.129
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.9MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_3|1.0MB/s
+- name: 🇩🇪DE_3|2.4MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -152,29 +155,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|3.3MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|3.8MB/s
-  network: ws
-  port: '2087'
-  server: 172.67.79.160
-  servername: cvhpyn.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  ws-opts:
-    headers:
-      Host: cvhpyn.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /fp=chrome
-  xudp: true
