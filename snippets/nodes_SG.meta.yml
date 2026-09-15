@@ -15,17 +15,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.5MB/s
+- client-fingerprint: random
+  name: 🇸🇬SG_1|4.1MB/s
   network: ws
-  port: 443
-  server: www.wto.org
-  servername: xi.tbv.ccwu.cc
+  port: 2096
+  server: cf9.danfeng.eu.org
+  servername: vip.868068.xyz
   tls: true
   type: vless
   udp: true
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
   ws-opts:
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: vip.868068.xyz
     path: /proxyip=us.xiabibi.cf
+- client-fingerprint: random
+  name: 🇸🇬SG_2|5.0MB/s
+  network: ws
+  port: '8443'
+  server: cf3.danfeng.eu.org
+  servername: vip.868068.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  ws-opts:
+    headers:
+      Host: vip.868068.xyz
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /proxyip=us.xiabibi.cf
+  xudp: true

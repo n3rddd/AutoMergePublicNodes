@@ -45,3 +45,33 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|5.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+    short-id: '!!str 21fa8a1ebf'
+  server: jp2.miyazono-kaori.com
+  servername: www.capcom.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: a69c51a8-1a3e-4ea7-a77f-56afe7c07306
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|5.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
+    short-id: '!!str df9232eff6'
+  server: jp1.miyazono-kaori.com
+  servername: www.capcom.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: a69c51a8-1a3e-4ea7-a77f-56afe7c07306
+  xudp: true
